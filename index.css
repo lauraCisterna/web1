@@ -1,0 +1,98 @@
+body {
+
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    border-top: solid 20px black;
+    border-bottom: solid 20px black;
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    background-color: white;
+}
+
+.esquerda {
+    width: 35%;
+    background-color: #d9d9d9;
+    padding: 65px 30px 30px 100px;
+    text-align: start;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.imagem{
+    width: 25px;
+    height: 25px;
+    flex-direction: column;
+}
+#contato{
+    display: flex;
+}
+.contato2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px;
+}
+.contato2 p {
+    margin: 5px 0px;
+    padding: 0;
+}
+h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Ruda', sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.direita {
+    width: 65%;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 55px;
+    color: #000000;
+    font-family: 'Ruda', sans-serif;
+}
+
+.sobre, .experiencia{
+    margin-top: 30px;
+}
+
+.sobre p {
+    font-size: 18px;
+    color: #555;
+    
+}
+
+.experiencia p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.experiencia strong {
+    font-size: 18px;
+    color: #2c2c2c;
+    font-family: 'Ruda', sans-serif;
+}
